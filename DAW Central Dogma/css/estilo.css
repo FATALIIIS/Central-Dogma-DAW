@@ -1,0 +1,39 @@
+body{
+	background-color: #000000;
+}
+h1{
+	color: red;
+	border: 3px inset white;
+	display: block;
+	width: max-content;
+	padding: 5px 10px;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	text-align: center;
+	color: red;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+ul{
+	justify-content: center;
+	width: max-content;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Esconde o menu suspenso por padrão */
+.conteudo-dropdown {
+  display: none;
+  position: absolute;
+}
+
+/* Mostra o menu suspenso ao passar o mouse */
+.dropdown:hover .conteudo-dropdown {
+  display: block;
+}
